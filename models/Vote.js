@@ -1,4 +1,3 @@
-const { tryStatement } = require('@babel/types');
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
