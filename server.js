@@ -9,7 +9,6 @@ const sequelize = require('./config/connection');
 
 const hbs = exphbs.create({});
 
-const session = require('express-session');
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
